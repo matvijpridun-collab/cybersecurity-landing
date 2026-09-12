@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Havensais Security</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cyber-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html" class="logo-link">
+                    Havensais Security
+                </a>
+            </div>
+            <nav class="nav-menu" aria-label="Головна навігація">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#rules">Rules</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero-section" id="home">
+            <div class="main-container">
+                <h1 class="hero-title">
+                    Твій надійний щит у цифровому світі
+                </h1>
+                <p class="hero-text">
+                    Кібербезпека — це не просто складні паролі,
+                    а твоя особиста гігієна в інтернеті.
+                    Сьогодні, коли хакери полюють на кожне посилання,
+                    важливо знати базові правила захисту.
+                    Дізнайся, як захистити свої гроші,
+                    акаунти та персональні дані від цифрових загроз
+                    за кілька простих кроків.
+                </p>
+            </div>
+            <div class="main-btn-section">
+                <button type="button" class="hero-btn"
+                    onclick="document.getElementById('rules').scrollIntoView({ behavior: 'smooth' })">
+                    Дізнатись правила захисту
+                </button>
+            </div>
+        </section>
+        <section class="security-section" id="rules">
+            <div class="main-container">
+                <h2 class="section-title">
+                    Основи цифрової кібергігієни
+                </h2>
+                <div class="rules-wrapper">
+                    <div class="rule-card">
+                        <h3 class="rule-title">1. Використовуйте складні паролі</h3>
+                        <p class="rule-text">
+                            Створюйте унікальні паролі для кожного облікового запису.
+                            Використовуйте комбінацію великих і малих літер, цифр та спеціальних символів.
+                        </p>
+                    </div>
+                    <div class="rule-card">
+                        <h3 class="rule-title">2. Двофакторна аутентифікація</h3>
+                        <p class="rule-text">
+                            Активуйте двофакторну аутентифікацію (2FA) для додаткового рівня захисту.
+                            Це допоможе запобігти несанкціонованому доступу до ваших акаунтів.
+                        </p>
+                    </div>
+                    <div class="rule-card">
+                        <h3 class="rule-title">3. Оновлення програмного забезпечення</h3>
+                        <p class="rule-text">
+                            Регулярно оновлюйте операційну систему та програми.
+                            Оновлення часто містять виправлення безпеки, які захищають від нових загроз.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main> 
+    <footer class="cyber-footer" id="contact">
+        <div class="footer-container">
+            <p class="footer copy">
+                © 2026 Havensais Security. Всі права захищені
+            </p>
+            <p class="footer-info">
+                Сайт створено для навчання основам
+                інформаційної безпеки та кібергігієни.
+            </p>
+        </div>
+    </footer>
+           
+    <script src="script.js"></script>
+</body>
+</html>
